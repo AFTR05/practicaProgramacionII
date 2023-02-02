@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
-        /*CostumerServiceImpl costumerService=new CostumerServiceImpl();
+        CostumerServiceImpl costumerService=new CostumerServiceImpl();
         ProductServiceImpl productService=new ProductServiceImpl();
         OrderServiceImpl orderService=new OrderServiceImpl();
         ArrayList<Product> products=productService.initializeProducts();
@@ -29,7 +29,7 @@ public class Main {
         Polimorfismo polimorfismo = new Polimorfismo();
         polimorfismo.test();
 
-         */
+         
         //--------------------******* Taller ******---------------------------------------------------
         GarbageCollector garbageCollector = new GarbageCollector();
         InnerClass.InternalInnerClass innerClass = new InnerClass().new InternalInnerClass(JOptionPane.showInputDialog("Ingrese el mensaje"));
