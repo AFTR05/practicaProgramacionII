@@ -1,5 +1,6 @@
 package org.example.application;
 
+import org.example.herencia.Examples;
 import org.example.model.Category;
 import org.example.model.Costumer;
 import org.example.model.Order;
@@ -26,5 +27,9 @@ public class Main {
 
         Polimorfismo polimorfismo = new Polimorfismo();
         polimorfismo.test();
+
+
+        Examples examplesPerson = new Examples();
+        examplesPerson.addPeople();
     }
 }
