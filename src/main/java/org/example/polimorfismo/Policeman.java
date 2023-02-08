@@ -1,9 +1,8 @@
 package org.example.polimorfismo;
 public class Policeman extends Person{
+
     public Policeman(String name, int age){
-
         super(name,age);
-
     }
     @Override
     public void work(){
