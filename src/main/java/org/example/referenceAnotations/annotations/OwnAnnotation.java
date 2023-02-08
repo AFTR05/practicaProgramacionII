@@ -23,4 +23,5 @@ En nuestro caso hemos dicho que sea en tiempo de ejecución y que se aplique a m
         También le hemos añadido un valor por defecto con la palabra default*/
 public @interface OwnAnnotation {
     String value() default "";
+
 }
